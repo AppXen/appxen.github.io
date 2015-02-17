@@ -33,7 +33,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html#"><img src='assets/img/appxen_logo.png' /> <b>APPXEN</b></a>
+          <a class="navbar-brand" href="#"><img src='assets/img/appxen_logo.png' /> <b>APPXEN</b></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -41,417 +41,417 @@
 
           <!-- Modal trigger -->
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html#home" class="smoothScroll">Home</a></li>
-            <li><a href="index.html#features" class="smoothScroll">Features</a></li>
-            <li><a href="index.html#pricing" class="smoothScroll">Purchase</a></li>
-            <li><a href="index.html#contact" class="smoothScroll">Contact</a></li>
-           </ul>
+            <li><a href="#home" class="smoothScroll">Home</a></li>
+            <li><a href="#features" class="smoothScroll">Features</a></li>
+            <li><a href="#pricing" class="smoothScroll">Purchase</a></li>
+            <li><a href="#contact" class="smoothScroll">Contact</a></li>
+          </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 
-	<!-- MODALS -->
-	<!-- Login Modal -->
-	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-	        <h4 class="modal-title" id="login">Login</h4>
-	      </div>
-	      <div class="modal-body">
-	        <form class="form-horizontal">
-				<!-- Text input-->
-				<div class="form-group">
-				  <label class="col-md-4 control-label" for="username">Username</label>
-				  <div class="col-md-5">
-				  <input id="username" name="username" type="text" placeholder="Username" class="form-control input-md" required>
-				  <span class="help-block">Your email address</span>
-				  </div>
-				</div>
+    <!-- MODALS -->
+    <!-- Login Modal -->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="login">Login</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal">
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="username">Username</label>
+                <div class="col-md-5">
+                  <input id="username" name="username" type="text" placeholder="Username" class="form-control input-md" required>
+                  <span class="help-block">Your email address</span>
+                </div>
+              </div>
 
-				<!-- Password input-->
-				<div class="form-group">
-				  <label class="col-md-4 control-label" for="passwordinput">Password</label>
-				  <div class="col-md-5">
-				    <input id="passwordinput" name="passwordinput" type="password" placeholder="Password" class="form-control input-md" required>
-				    <span class="help-block">Your password</span>
-				  </div>
-				</div>
+              <!-- Password input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="passwordinput">Password</label>
+                <div class="col-md-5">
+                  <input id="passwordinput" name="passwordinput" type="password" placeholder="Password" class="form-control input-md" required>
+                  <span class="help-block">Your password</span>
+                </div>
+              </div>
 
-				<!-- Multiple Checkboxes (inline) -->
-				<div class="form-group">
-				  <label class="col-md-4 control-label" for="rememberme"></label>
-				  <div class="col-md-4">
-				    <label class="checkbox-inline" for="rememberme">
-				      <input type="checkbox" name="rememberme" id="rememberme" value="">
-				      Remember me
-				    </label>
-				    <br>
-				    <a href="index.html#">Forgot password?</a>
-				  </div>
-				</div>
-			</form>
+              <!-- Multiple Checkboxes (inline) -->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="rememberme"></label>
+                <div class="col-md-4">
+                  <label class="checkbox-inline" for="rememberme">
+                    <input type="checkbox" name="rememberme" id="rememberme" value="">
+                    Remember me
+                  </label>
+                  <br>
+                  <a href="#">Forgot password?</a>
+                </div>
+              </div>
+            </form>
 
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-	        <button type="submit" class="btn btn-theme">Login</button>
-	      </div>
-	    </div>
-	  </div>
-	</div><!--/ login modal -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn btn-theme">Login</button>
+          </div>
+        </div>
+      </div>
+    </div><!--/ login modal -->
 
-	<!-- Register Modal -->
-	<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="register" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-	        <h4 class="modal-title" id="register">Register</h4>
-	      </div>
-	      <div class="modal-body">
-	        <form class="form-horizontal">
-				<!-- Text input-->
-				<div class="form-group">
-				  <label class="col-md-4 control-label" for="nameinput">Your Name</label>
-				  <div class="col-md-5">
-				  <input id="nameinput" name="nameinput" type="text" placeholder="Your name" class="form-control input-md" required>
-				  <span class="help-block">Your first and last name</span>
-				  </div>
-				</div>
+    <!-- Register Modal -->
+    <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="register" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="register">Register</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal">
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="nameinput">Your Name</label>
+                <div class="col-md-5">
+                  <input id="nameinput" name="nameinput" type="text" placeholder="Your name" class="form-control input-md" required>
+                  <span class="help-block">Your first and last name</span>
+                </div>
+              </div>
 
-				<!-- Text input-->
-				<div class="form-group">
-				  <label class="col-md-4 control-label" for="emailinput">Your Email</label>
-				  <div class="col-md-5">
-				  <input id="emailinput" name="emailinput" type="email" placeholder="Your email" class="form-control input-md" required>
-				  <span class="help-block">Your email address</span>
-				  </div>
-				</div>
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="emailinput">Your Email</label>
+                <div class="col-md-5">
+                  <input id="emailinput" name="emailinput" type="email" placeholder="Your email" class="form-control input-md" required>
+                  <span class="help-block">Your email address</span>
+                </div>
+              </div>
 
-				<!-- Password input-->
-				<div class="form-group">
-				  <label class="col-md-4 control-label" for="passwordinput">Password</label>
-				  <div class="col-md-5">
-				    <input id="passwordinput" name="passwordinput" type="password" placeholder="Password" class="form-control input-md" required>
-				    <span class="help-block">Password must be at least 8 characters</span>
-				  </div>
-				</div>
-			</form>
+              <!-- Password input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="passwordinput">Password</label>
+                <div class="col-md-5">
+                  <input id="passwordinput" name="passwordinput" type="password" placeholder="Password" class="form-control input-md" required>
+                  <span class="help-block">Password must be at least 8 characters</span>
+                </div>
+              </div>
+            </form>
 
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-	        <button type="submit" class="btn btn-theme">Register</button>
-	      </div>
-	    </div>
-	  </div>
-	</div><!--/ register modal -->
-	<!-- END MODALS -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn btn-theme">Register</button>
+          </div>
+        </div>
+      </div>
+    </div><!--/ register modal -->
+    <!-- END MODALS -->
 
-	<section id="home" name="home"></section>
-	<div id="headerwrap">
-	    <div class="container">
-	    	<div class="row centered">
-	    		<div class="col-lg-12">
-					<h1>Introducing: <b>AppXen</b></h1>
-					<h3>The Intelligent PSD to Native UI compiler</h3>
-					<br>
-	    		</div>
+    <section id="home" name="home"></section>
+    <div id="headerwrap">
+      <div class="container">
+        <div class="row centered">
+          <div class="col-lg-12">
+            <h1>Introducing: <b>AppXen</b></h1>
+            <h3>The Intelligent PSD to Native UI compiler</h3>
+            <br>
+          </div>
 
-	    		<div class="col-lg-2">
-	    			<h5>Instant Source Code</h5>
-	    			<p>Use your Photoshop design templates to generate code in a matter of seconds!</p>
-	    			<img class="hidden-xs hidden-sm hidden-md" src="assets/img/arrow1.png">
-	    		</div>
-	    		<div class="col-lg-8">
-	    			<div class='img-vid'>
-							<!-- ADD VIDEO LATER -->
-	    			</div>
-	    			<h4>Simply your workflow, optimize your results.</h4>
-	    			<a href="index.html#features" type="submit" class="btn btn-lg btn-theme smoothScroll">LEARN MORE</a>
-	    		</div>
-	    		<div class="col-lg-2">
-	    			<br>
-	    			<img class="hidden-xs hidden-sm hidden-md" src="assets/img/arrow2.png">
-	    			<h5>Speedy Development</h5>
-	    			<p>Enough with the long, tedious process of manually slicing Photoshop files!</p>
-	    		</div>
-	    	</div>
-	    </div> <!--/ .container -->
-	</div><!--/ #headerwrap -->
-
-
-	<section id="features" name="features"></section>
-	<!-- INTRO WRAP -->
-	<div id="intro">
-		<div class="container">
-			<div class="row centered">
-				<h1>How Does it Work?</h1>
-				<hr>
-				<br>
-				<br>
-				<div class="col-lg-3">
-					<div class="icon layers"></div>
-					<h3>1. Obtain PSD File</h3>
-					<p>Have your application design mock-up, still in layers, ready in Photoshop format. </p>
-				</div>
-				<div class="col-lg-3">
-					<div class="icon appxen"></div>
-					<h3>2. Drag & Drop</h3>
-					<p>Drag your Photoshop file into the AppXen drop-zone.</p>
-				</div>
-				<div class="col-lg-3">
-					<licon class="li_note"></licon>
-					<h3>3. Retrieve Source</h3>
-					<p>Get the newly generated source code and accompanying image files.</p>
-				</div>
-				<div class="col-lg-3">
-					<licon class="li_phone"></licon>
-					<h3>4. Apply to Platforms</h3>
-					<p>Use the source code & images to build the application on a platform of your choice.</p>
-				</div>
-			</div>
-			<br>
-	    </div> <!--/ .container -->
-	</div><!--/ #introwrap -->
-
-	<!-- FEATURES WRAP -->
-	<div id="features">
-		<div class="container">
-			<div class="row">
-				<h1 class="centered">Design Specifications</h1>
-				<hr>
-				<br>
-				<br>
-				<div class="col-lg-6">
-					<img id="app-sample" class="img-responsive" src="assets/img/infograph.png" alt="">
-				</div>
-
-				<div class="col-lg-6">
-					<h3>Features</h3>
-					<br>
-					<!-- ACCORDION -->
-		            <div class="accordion ac" id="accordion2">
-		                <div class="accordion-group">
-		                    <div class="accordion-heading">
-		                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="index.html#collapseOne">
-		                        <licon class="li_star"></licon> Simple Drag & Drop Design
-		                        </a>
-		                    </div><!-- /accordion-heading -->
-		                    <div id="collapseOne" class="accordion-body collapse in">
-		                        <div class="accordion-inner">
-								<p>Select your output platform and drag your PSD file to the application’s drop-zone. In a matter of seconds, you will get back cleanly formatted, ready-to-use native code and all the accompanying images. And for command line users, AppXen is fully functional on your CLI!</p>
-								</div><!-- /accordion-inner -->
-		                    </div><!-- /collapse -->
-		                </div><!-- /accordion-group -->
-		                <br>
-
-		                <div class="accordion-group">
-		                    <div class="accordion-heading">
-		                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="index.html#collapseTwo">
-		                        <licon class="li_photo"></licon> Support For All Photoshop Layer Types
-		                        </a>
-		                    </div>
-		                    <div id="collapseTwo" class="accordion-body collapse">
-		                        <div class="accordion-inner">
-								<p>No need to hold back on your design process. From raster to vector shapes, Text Layers to Smart Objects, AppXen is 100% compatible. Font styles, shadows, strokes... you name it!</p>
-								</div><!-- /accordion-inner -->
-		                    </div><!-- /collapse -->
-		                </div><!-- /accordion-group -->
-		                <br>
-
-		                 <div class="accordion-group">
-		                    <div class="accordion-heading">
-		                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="index.html#collapseThree">
-		                        <licon class="li_eye"></licon> Fully Optimized Output
-		                        </a>
-		                    </div>
-		                    <div id="collapseThree" class="accordion-body collapse">
-		                        <div class="accordion-inner">
-								<p>All Photoshop layers are output to PNG format to maximize your development experience. The resulting source code maintains view hierarchy and layer positioning. Retina and non-Retina exports are also supported.</p>
-								</div><!-- /accordion-inner -->
-		                    </div><!-- /collapse -->
-		                </div><!-- /accordion-group -->
-		                <br>
-
-		                 <div class="accordion-group">
-		                    <div class="accordion-heading">
-		                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="index.html#collapseFour">
-		                        <licon class="li_phone"></licon> Multi-Platform Compatibility
-		                        </a>
-		                    </div>
-		                    <div id="collapseFour" class="accordion-body collapse">
-		                        <div class="accordion-inner">
-								<p>
-									AppXen runs on Linux, OSX and Windows.<br />
-									Currently supported source code outputs include:
-									<ul>
-										<li>Appcelerator Titanium: iOS, Android, MobileWeb</li>
-										<li>Alloy for Titanium</li>
-										<li>Native iOS (Objective C)</li>
-										<li>Android (XML)</li>
-										<li>HTML & CSS (includes PhoneGap)</li>
-									</ul>
-								</p>
-								</div><!-- /accordion-inner -->
-		                    </div><!-- /collapse -->
-		                </div><!-- /accordion-group -->
-		                <br>
-
-		                 <div class="accordion-group">
-		                    <div class="accordion-heading">
-		                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="index.html#collapseFive">
-		                        <licon class="li_banknote"></licon> Photoshop Not Required
-		                        </a>
-		                    </div>
-		                    <div id="collapseFive" class="accordion-body collapse">
-		                        <div class="accordion-inner">
-								<p>Save yourself some cash and keep that money in your pocket. No need to purchase Photoshop! All you need is an application mockup in PSD format, but the actual Photoshop program is not required to use AppXen.</p>
-								</div><!-- /accordion-inner -->
-		                    </div><!-- /collapse -->
-		                </div><!-- /accordion-group -->
-		                <br>
-					</div><!-- Accordion -->
-				</div>
-			</div>
-			<br>
-			<br>
-			<br>
-			<div class="row">
-				<h1 class="centered">See it in Action</h1>
-				<hr>
-				<br>
-				<br>
-				<div class="col-lg-4">
-					<h3></h3>
-					<br>
-                    <h4><licon class="li_display"></licon> Your Workflow, Simplified</h4>
-                    <p>AppXen analyzes your Photoshop file, parses out the necessary data, slices your images into retina & non-retina versions, and generates the UI code for the platform of your choice. This will save a developer an average of 2-8 hours per screen of an application design. With the clean, ready-to-use code, you’ll be on your way to producing apps faster than ever before.</p>
-				</div>
-
-				<div class="col-lg-8">
-					<div class="action">
-							<img src="assets/img/action.gif" />
-					</div>
-				</div>
-			</div>
-			<br>
-			<br>
-			<br>
-		</div><!--/ .container -->
-	</div><!--/ #features -->
+          <div class="col-lg-2">
+            <h5>Instant Source Code</h5>
+            <p>Use your Photoshop design templates to generate code in a matter of seconds!</p>
+            <img class="hidden-xs hidden-sm hidden-md" src="assets/img/arrow1.png">
+          </div>
+          <div class="col-lg-8">
+            <div class='img-vid'>
+              <!-- ADD VIDEO LATER -->
+            </div>
+            <h4>Simply your workflow, optimize your results.</h4>
+            <a href="#features" type="submit" class="btn btn-lg btn-theme smoothScroll">LEARN MORE</a>
+          </div>
+          <div class="col-lg-2">
+            <br>
+            <img class="hidden-xs hidden-sm hidden-md" src="assets/img/arrow2.png">
+            <h5>Speedy Development</h5>
+            <p>Enough with the long, tedious process of manually slicing Photoshop files!</p>
+          </div>
+        </div>
+      </div> <!--/ .container -->
+    </div><!--/ #headerwrap -->
 
 
-	<div id="divider01">
-		<div class="container">
-			<div class="row centered">
-				<div id="carousel-example-generic" class="carousel slide">
-					<!-- Wrapper for slides -->
-					<div class="carousel-inner">
-				    	<div class="item active">
-				    		<h1>Let AppXen do the work and turn those mock-ups in to running apps.</h1>
-				    	</div>
-				    	<div class="item">
-				    		<h1>Spend less time slicing images and more time developing!</h1>
-				    	</div>
-					</div><!-- /carousel-inner -->
-					<br>
-					<br>
-					<br>
-					<!-- Indicators - Uncomment for indicators to show
-					<ol class="carousel-indicators">
-				    	<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-				    	<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					</ol> -->
-				</div><!-- /carousel-example -->
-			</div>
-		</div><!--/ .container -->
-	</div><!--/ #divider01 -->
+    <section id="features" name="features"></section>
+    <!-- INTRO WRAP -->
+    <div id="intro">
+      <div class="container">
+        <div class="row centered">
+          <h1>How Does it Work?</h1>
+          <hr>
+          <br>
+          <br>
+          <div class="col-lg-3">
+            <div class="icon layers"></div>
+            <h3>1. Obtain PSD File</h3>
+            <p>Have your application design mock-up, still in layers, ready in Photoshop format. </p>
+          </div>
+          <div class="col-lg-3">
+            <div class="icon appxen"></div>
+            <h3>2. Drag & Drop</h3>
+            <p>Drag your Photoshop file into the AppXen drop-zone.</p>
+          </div>
+          <div class="col-lg-3">
+            <licon class="li_note"></licon>
+            <h3>3. Retrieve Source</h3>
+            <p>Get the newly generated source code and accompanying image files.</p>
+          </div>
+          <div class="col-lg-3">
+            <licon class="li_phone"></licon>
+            <h3>4. Apply to Platforms</h3>
+            <p>Use the source code & images to build the application on a platform of your choice.</p>
+          </div>
+        </div>
+        <br>
+      </div> <!--/ .container -->
+    </div><!--/ #introwrap -->
+
+    <!-- FEATURES WRAP -->
+    <div id="features">
+      <div class="container">
+        <div class="row">
+          <h1 class="centered">Design Specifications</h1>
+          <hr>
+          <br>
+          <br>
+          <div class="col-lg-6">
+            <img id="app-sample" class="img-responsive" src="assets/img/infograph.png" alt="">
+          </div>
+
+          <div class="col-lg-6">
+            <h3>Features</h3>
+            <br>
+            <!-- ACCORDION -->
+            <div class="accordion ac" id="accordion2">
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                    <licon class="li_star"></licon> Simple Drag & Drop Design
+                  </a>
+                </div><!-- /accordion-heading -->
+                <div id="collapseOne" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+                    <p>Select your output platform and drag your PSD file to the application’s drop-zone. In a matter of seconds, you will get back cleanly formatted, ready-to-use native code and all the accompanying images. And for command line users, AppXen is fully functional on your CLI!</p>
+                  </div><!-- /accordion-inner -->
+                </div><!-- /collapse -->
+              </div><!-- /accordion-group -->
+              <br>
+
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                    <licon class="li_photo"></licon> Support For All Photoshop Layer Types
+                  </a>
+                </div>
+                <div id="collapseTwo" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <p>No need to hold back on your design process. From raster to vector shapes, Text Layers to Smart Objects, AppXen is 100% compatible. Font styles, shadows, strokes... you name it!</p>
+                  </div><!-- /accordion-inner -->
+                </div><!-- /collapse -->
+              </div><!-- /accordion-group -->
+              <br>
+
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                    <licon class="li_eye"></licon> Fully Optimized Output
+                  </a>
+                </div>
+                <div id="collapseThree" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <p>All Photoshop layers are output to PNG format to maximize your development experience. The resulting source code maintains view hierarchy and layer positioning. Retina and non-Retina exports are also supported.</p>
+                  </div><!-- /accordion-inner -->
+                </div><!-- /collapse -->
+              </div><!-- /accordion-group -->
+              <br>
+
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+                    <licon class="li_phone"></licon> Multi-Platform Compatibility
+                  </a>
+                </div>
+                <div id="collapseFour" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <p>
+                      AppXen runs on Linux, OSX and Windows.<br />
+                      Currently supported source code outputs include:
+                      <ul>
+                        <li>Appcelerator Titanium: iOS, Android, MobileWeb</li>
+                        <li>Alloy for Titanium</li>
+                        <li>Native iOS (Objective C)</li>
+                        <li>Android (XML)</li>
+                        <li>HTML & CSS (includes PhoneGap)</li>
+                      </ul>
+                    </p>
+                  </div><!-- /accordion-inner -->
+                </div><!-- /collapse -->
+              </div><!-- /accordion-group -->
+              <br>
+
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
+                    <licon class="li_banknote"></licon> Photoshop Not Required
+                  </a>
+                </div>
+                <div id="collapseFive" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <p>Save yourself some cash and keep that money in your pocket. No need to purchase Photoshop! All you need is an application mockup in PSD format, but the actual Photoshop program is not required to use AppXen.</p>
+                  </div><!-- /accordion-inner -->
+                </div><!-- /collapse -->
+              </div><!-- /accordion-group -->
+              <br>
+            </div><!-- Accordion -->
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+          <h1 class="centered">See it in Action</h1>
+          <hr>
+          <br>
+          <br>
+          <div class="col-lg-4">
+            <h3></h3>
+            <br>
+            <h4><licon class="li_display"></licon> Your Workflow, Simplified</h4>
+            <p>AppXen analyzes your Photoshop file, parses out the necessary data, slices your images into retina & non-retina versions, and generates the UI code for the platform of your choice. This will save a developer an average of 2-8 hours per screen of an application design. With the clean, ready-to-use code, you’ll be on your way to producing apps faster than ever before.</p>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="action">
+              <img src="assets/img/action.gif" />
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+      </div><!--/ .container -->
+    </div><!--/ #features -->
 
 
-	<div id="pricing">
-		<div class="container centered">
-			<br>
-		<h2>How Can I Get AppXen?</h2>
-			<hr>
-			<br>
-			<br>
-			<div class="row">
-				<div class="lic col-lg-6">
-				  <licon class="li_lab"></licon>
-				  <h3>Join the Private Beta Program</h3>
-				  <p>
-				  	AppXen is currently in private beta. To optimize the app as much as possible
-				  	prior to general release, we would love to gather feedback from select users.
-				  	We are currently accepting requests to join the program, sign up below to participate!
-				  </p>
-				 		<input class="btn btn-theme" type="button" value="Sign Me Up" onclick="window.open('https://docs.google.com/forms/d/1GgaoY9YJNiyZsSRWah3R2iglScK7DJXSqwseDJ03ceA/viewform')">
-				</div>
-				<div class="lic col-lg-6">
-				  <licon class="li_news"></licon>
-				  <h3>Subscribe to our Newsletter</h3>
-				  <p>
-				  	If you are not interested in the Private Beta Program, no worries! You can
-				  	stay up-to-date with AppXen by signing up for our newsletter.
-				  	Be the first to hear about the latest news and features, all leading up the official
-				    AppXen release date!
-				  </p>
-				 		<input class="btn btn-theme" type="button" value="Subscribe" onclick="window.open('https://docs.google.com/forms/d/1GgaoY9YJNiyZsSRWah3R2iglScK7DJXSqwseDJ03ceA/viewform')">
-				</div>
+    <div id="divider01">
+      <div class="container">
+        <div class="row centered">
+          <div id="carousel-example-generic" class="carousel slide">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <h1>Let AppXen do the work and turn those mock-ups in to running apps.</h1>
+              </div>
+              <div class="item">
+                <h1>Spend less time slicing images and more time developing!</h1>
+              </div>
+            </div><!-- /carousel-inner -->
+            <br>
+            <br>
+            <br>
+            <!-- Indicators - Uncomment for indicators to show
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            </ol> -->
+          </div><!-- /carousel-example -->
+        </div>
+      </div><!--/ .container -->
+    </div><!--/ #divider01 -->
+
+
+    <div id="pricing">
+      <div class="container centered">
+        <br>
+        <h2>How Can I Get AppXen?</h2>
+        <hr>
+        <br>
+        <br>
+        <div class="row">
+          <div class="lic col-lg-6">
+            <licon class="li_lab"></licon>
+            <h3>Join the Private Beta Program</h3>
+            <p>
+              AppXen is currently in private beta. To optimize the app as much as possible
+              prior to general release, we would love to gather feedback from select users.
+              We are currently accepting requests to join the program, sign up below to participate!
+            </p>
+            <input class="btn btn-theme" type="button" value="Sign Me Up" onclick="window.open('https://docs.google.com/forms/d/1GgaoY9YJNiyZsSRWah3R2iglScK7DJXSqwseDJ03ceA/viewform')">
+          </div>
+          <div class="lic col-lg-6">
+            <licon class="li_news"></licon>
+            <h3>Subscribe to our Newsletter</h3>
+            <p>
+              If you are not interested in the Private Beta Program, no worries! You can
+              stay up-to-date with AppXen by signing up for our newsletter.
+              Be the first to hear about the latest news and features, all leading up the official
+              AppXen release date!
+            </p>
+            <input class="btn btn-theme" type="button" value="Subscribe" onclick="window.open('https://docs.google.com/forms/d/1GgaoY9YJNiyZsSRWah3R2iglScK7DJXSqwseDJ03ceA/viewform')">
+          </div>
+        </div>
+
+        <div class="row">
+        </div><!-- /row -->
+      </div><!-- /container -->
+    </div>
+
+
+    <div id="divider02">
+      <div class="centered">
+        <h3>Stay in the loop!<br /><br />Once released, all of AppXen's output templates will be Open-Sourced,<br />allowing for an ever-evolving ecosystem in which developers can continually create new possibilities.</h3>
       </div>
 
-			<div class="row">
-			</div><!-- /row -->
-		</div><!-- /container -->
-	</div>
+    </div>
 
 
-	<div id="divider02">
-		<div class="centered">
-			<h3>Stay in the loop!<br /><br />Once released, all of AppXen's output templates will be Open-Sourced,<br />allowing for an ever-evolving ecosystem in which developers can continually create new possibilities.</h3>
-		</div>
+    <section id="contact" name="contact"></section>
+    <div id="footerwrap">
+      <div class="container centered">
+        <div class="row">
+          <div class="col-lg-4">
+            <h3>Contact</h3>
+            <br>
+            <p>
+              email: info@appxen.com
+            </p>
+          </div>
 
-	</div>
+          <div class="col-lg-4">
+            <h3>We Are Social</h3>
+            <br>
+            <p><a href="https://plus.google.com/+Bodhi5Inc/posts"><i class="fa fa-google-plus fa-lg"></i></a> <a href="https://twitter.com/bodhi_5"><i class="fa fa-twitter fa-lg"></i></a> <a href="https://github.com/orgs/Bodhi5/"><i class="fa fa-github fa-lg"></i></a></p>
+          </div>
 
-
-	<section id="contact" name="contact"></section>
-	<div id="footerwrap">
-		<div class="container centered">
-			<div class="row">
-				<div class="col-lg-4">
-					<h3>Contact</h3>
-					<br>
-					<p>
-					  email: info@appxen.com
-					</p>
-				</div>
-
-				<div class="col-lg-4">
-					<h3>We Are Social</h3>
-					<br>
-					<p><a href="https://plus.google.com/+Bodhi5Inc/posts"><i class="fa fa-google-plus fa-lg"></i></a> <a href="https://twitter.com/bodhi_5"><i class="fa fa-twitter fa-lg"></i></a> <a href="https://github.com/orgs/Bodhi5/"><i class="fa fa-github fa-lg"></i></a></p>
-				</div>
-
-				<div class="col-lg-4">
-					<h3>Newsletter</h3>
-					<br>
-					<p>Subscribe to our newsletter and be the first to know our latest updates.</p>
-					<div class="form-inline">
-				 		<input class="btn btn-theme" type="button" value="Subscribe" onclick="window.open('https://docs.google.com/forms/d/1GgaoY9YJNiyZsSRWah3R2iglScK7DJXSqwseDJ03ceA/viewform')">
-				    </div>
-				</div>
-			</div>
-		</div><!--/ .container -->
-	</div><!--/ #footerwrap -->
+          <div class="col-lg-4">
+            <h3>Newsletter</h3>
+            <br>
+            <p>Subscribe to our newsletter and be the first to know our latest updates.</p>
+            <div class="form-inline">
+              <input class="btn btn-theme" type="button" value="Subscribe" onclick="window.open('https://docs.google.com/forms/d/1GgaoY9YJNiyZsSRWah3R2iglScK7DJXSqwseDJ03ceA/viewform')">
+            </div>
+          </div>
+        </div>
+      </div><!--/ .container -->
+    </div><!--/ #footerwrap -->
 
 
-	<div id="c">
-		<div class="container centered">
-			&copy; Copyright 2014 Bodhi5, Inc. All Rights Reserved.
-		</div>
-	</div><!--/ #c (copyright) -->
+    <div id="c">
+      <div class="container centered">
+        &copy; Copyright 2014 Bodhi5, Inc. All Rights Reserved.
+      </div>
+    </div><!--/ #c (copyright) -->
 
 
     <!-- Bootstrap core JavaScript
@@ -463,9 +463,9 @@
     <script src="assets/js/smoothscroll.js"></script>
     <script src="assets/js/retina.js"></script>
     <script>
-		$('.carousel').carousel({
-			interval: 3500
-		})
-	</script>
+      $('.carousel').carousel({
+        interval: 3500
+        })
+    </script>
   </body>
 </html>

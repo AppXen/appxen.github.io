@@ -1,4 +1,4 @@
-appxen.github.com
+appxen.github.io
 =================
 
 AppXen Beta Page
